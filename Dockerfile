@@ -1,7 +1,7 @@
 FROM postgres:15
 
-ENV POSTGRES_USER=shop_user
-ENV POSTGRES_PASSWORD=shop_pass
-ENV POSTGRES_DB=shopdb
+ENV POSTGRES_USER=postgres
+ENV POSTGRES_PASSWORD=your_password
+ENV POSTGRES_DB=online_shop
 
 COPY ./sql /docker-entrypoint-initdb.d/
