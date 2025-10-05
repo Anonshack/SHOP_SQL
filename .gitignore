@@ -1,0 +1,10 @@
+# PostgreSQL data
+*.sql~
+*.log
+
+# Python virtual environment
+venv/
+__pycache__/
+
+# OS fayllari
+.DS_Store
